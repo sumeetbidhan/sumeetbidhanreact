@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128.86017"
+   height="68.546616"
+   viewBox="0 0 128.86017 68.546615"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1651376"
+     inkscape:cx="65.122882"
+     inkscape:cy="33.48517"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="128.86017"
+       height="68.546616"
+       id="page1"
+       margin="19.86017 0 8.3135595"
+       bleed="0" />
+  </sodipodi:namedview>
+  <path
+     d="m 78.309322,51.009134 c 0,-1.31654 1.087267,-2.340628 2.330047,-2.194779 l 37.415691,4.391949 c 4.75261,0.557976 8.77368,-3.66195 8.25969,-8.667496 -0.5355,-5.19997 -5.6503,-8.413803 -10.25182,-6.440125 l -34.864388,14.95548 c -1.379644,0.591827 -2.88922,-0.476682 -2.88922,-2.045029 z"
+     fill="url(#paint0_linear_2205_14)"
+     id="path1"
+     style="fill:url(#paint0_linear_2205_14);stroke-width:1.22646" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#bdc83a;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+    </linearGradient>
+    <rect
+       x="76.207626"
+       y="-12.008475"
+       width="1.3855932"
+       height="42.491528"
+       id="rect2" />
+    <rect
+       x="4.6186442"
+       y="8.3135595"
+       width="117.85483"
+       height="27.25"
+       id="rect1" />
+    <linearGradient
+       id="paint0_linear_2205_14"
+       x1="219.10001"
+       y1="39.998299"
+       x2="202.599"
+       y2="91.403702"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1953248,0,0,1.2584022,-2.9727632,-2.3345349)">
+      <stop
+         stop-color="#DF8908"
+         id="stop2"
+         offset="0.28389829"
+         style="stop-color:#52089f;stop-opacity:1;" />
+      <stop
+         offset="0.91525424"
+         stop-color="#B415FF"
+         id="stop3"
+         style="stop-color:#15f3ff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch2"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="5.4825187"
+       y1="14.018964"
+       x2="108.04534"
+       y2="14.018964" />
+  </defs>
+  <text
+     xml:space="preserve"
+     id="text1"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5697px;font-family:'Gujarati Sangam MN';-inkscape-font-specification:'Gujarati Sangam MN Italic';white-space:pre;shape-inside:url(#rect1);display:inline;fill:#fcf7f7;fill-opacity:1;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     transform="matrix(1.0309526,0,0,2.1463831,0.12624142,5.8554446)"><tspan
+       x="4.6191406"
+       y="20.694502"
+       id="tspan4"><tspan
+         style="font-style:normal;font-weight:bold;font-family:Kailasa;-inkscape-font-specification:'Kailasa Bold'"
+         id="tspan3">SumeetBidhan</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text2"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Gujarati Sangam MN';-inkscape-font-specification:'Gujarati Sangam MN Italic';writing-mode:tb-rl;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#bdc83a;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     transform="translate(10.161017,5.0805085)" />
+</svg>
