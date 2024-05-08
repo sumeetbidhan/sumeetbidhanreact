@@ -3,7 +3,7 @@ const Services_Data = [
         s_no:"01",
         s_name:"Data Analysis and Insights",
         s_desc:"Transforming raw data into actionable insights through in-depth analysis, statistical modeling, and data visualization techniques, empowering informed decision-making and strategic planning.",
-        pdf_link:"sumeetbidhanReact/public/1.pdf"
+        pdf_link:"public/1.pdf"
     },
     {
         s_no:"02",
