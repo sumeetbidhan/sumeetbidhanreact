@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  cursor: default;
 }
 
 .contact-title{
@@ -15,6 +16,7 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  cursor: default;
 }
 
 .contact-title img{

@@ -15,6 +15,7 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  cursor: default;
 }
 
 
@@ -47,7 +48,9 @@
   gap: 20px;
   font-size: 24px;
   font-weight: 500;
+  cursor: default;
 }
+
 
 .about-skills{
   display: flex;
@@ -60,12 +63,14 @@
   gap: 50px;
   align-items: center;
   transition: .3s;
+  cursor: default;
 }
 .about-skill p{
   min-width: 150px;
   font-size: 24px;
   font-weight: 500;
 }
+
 
 .about-skill hr{
   outline: none;
@@ -89,6 +94,7 @@
   width: 100%;
   justify-content: space-around;
   margin-bottom: 80px;
+  cursor:default;
 
 }
 .about-achievement{
