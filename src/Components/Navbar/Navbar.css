@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 20px 170px;
   transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Add this line */
 }
 
 .navbar-fixed {
@@ -11,16 +12,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency as needed */
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 60px;
-  font-size: 20px;
+  padding: 20px 170px; /* Ensure padding remains the same */
+  box-sizing: border-box; /* Add this line */
 }
 
 .nav-connect {
@@ -30,12 +25,23 @@
   font-size: 22px;
   cursor: pointer;
   transition: background 0.9s, transform 0.9s;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .nav-connect:hover {
   transform: scale(1.05);
   background: linear-gradient(267deg, #a7da25 0.36%, #23aee1 102.06%);
   color: #000;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
 }
 
 .nav-menu li {
@@ -55,10 +61,7 @@
   color: white;
 }
 
-.nav-mob-close {
-  display: none;
-}
-
+.nav-mob-close,
 .nav-mob-open {
   display: none;
 }
