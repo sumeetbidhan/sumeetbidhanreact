@@ -12,7 +12,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(39, 37, 37, 0.8);
   z-index: 1000;
   padding: 10px 150px; /* Adjust padding for fixed state */
 }
