@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 170px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease; /* Apply transition to all properties */
 }
 
 .navbar-fixed {
@@ -12,8 +12,8 @@
   left: 0;
   width: 100%;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency as needed */
   padding: 10px 170px; /* Adjust padding to maintain layout */
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency as needed */
   z-index: 1000;
 }
 
