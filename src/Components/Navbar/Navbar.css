@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 170px;
-  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  transition: background-color 0.4s ease, padding 0.4s ease; /* Add padding transition */
   box-sizing: border-box;
 }
 
