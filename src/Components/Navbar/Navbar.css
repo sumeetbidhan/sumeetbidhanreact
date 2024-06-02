@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 170px;
-  transition: background-color 0.3s ease;
-  box-sizing: border-box; /* Add this line */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  box-sizing: border-box;
 }
 
 .navbar-fixed {
@@ -14,8 +14,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
-  padding: 20px 170px; /* Ensure padding remains the same */
-  box-sizing: border-box; /* Add this line */
+  padding: 10px 150px; /* Adjust padding for fixed state */
 }
 
 .nav-connect {
@@ -25,7 +24,7 @@
   font-size: 22px;
   cursor: pointer;
   transition: background 0.9s, transform 0.9s;
-  white-space: nowrap; /* Prevent text wrapping */
+  white-space: nowrap;
 }
 
 .nav-connect:hover {
@@ -40,8 +39,8 @@
   list-style: none;
   gap: 60px;
   font-size: 20px;
-  margin: 0; /* Ensure no default margin */
-  padding: 0; /* Ensure no default padding */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu li {
@@ -67,12 +66,13 @@
 }
 
 .nav-menu li a:hover {
-  color: #25c8da; /* Change text color on hover */
+  color: #25c8da;
 }
 
 @media (max-width: 768px) {
   .navbar {
     padding: 20px 50px;
+    transition: background-color 0.3s ease, padding 0.3s ease;
   }
 
   .nav-connect {
