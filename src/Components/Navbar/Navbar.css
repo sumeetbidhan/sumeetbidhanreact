@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 170px;
-  transition: background-color 0.3s ease, padding 0.3s ease; /* Apply transition to background and padding */
+  transition: background-color 0.3s ease;
 }
 
 .navbar-fixed {
@@ -71,9 +71,7 @@
   .navbar {
     padding: 20px 50px;
   }
-  .navbar-fixed {
-    padding: 10px 50px;
-  }
+
   .nav-connect {
     display: none;
   }
