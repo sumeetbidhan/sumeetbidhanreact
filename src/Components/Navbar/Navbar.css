@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 170px;
-  transition: all 0.3s ease; /* Apply transition to all properties */
+  padding: 20px 170px;
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Apply transition to background and padding */
 }
 
 .navbar-fixed {
@@ -11,8 +11,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  margin: 0;
-  padding: 10px 170px; /* Adjust padding to maintain layout */
   background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency as needed */
   z-index: 1000;
 }
@@ -31,7 +29,7 @@
   background: linear-gradient(267deg, #25c8da 0.36%, #e1c423 102.06%);
   font-size: 22px;
   cursor: pointer;
-  transition: 0.9s;
+  transition: background 0.9s, transform 0.9s;
 }
 
 .nav-connect:hover {
@@ -71,7 +69,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    padding: 20px 50px;
   }
   .navbar-fixed {
     padding: 10px 50px;
