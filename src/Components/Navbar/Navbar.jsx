@@ -8,7 +8,7 @@ import menu_close from '../../assets/menu_close.svg';
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
-  const [isTransparent, setIsTransparent] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef();
 
   const openMenu = () => {
@@ -21,9 +21,9 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
-      setIsTransparent(true);
+      setIsScrolled(true);
     } else {
-      setIsTransparent(false);
+      setIsScrolled(false);
     }
   };
 
@@ -35,7 +35,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`navbar ${isTransparent ? 'navbar-transparent' : ''}`}>
+    <div className={`navbar ${isScrolled ? 'navbar-fixed' : ''}`}>
       <img src={logo} alt="logo" />
       <img src={menu_open} onClick={openMenu} alt="menu open" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
