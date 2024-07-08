@@ -28,7 +28,7 @@ const mywork_data = [
         w_no:4,
         w_name:"Web design",
         w_img:project4_img,
-        link:""
+        link:"https://www.figma.com/design/wp4iDKRbolkUc27qt4dN9s/Blog-Edutech?node-id=0-1&t=rSA6718zRw8NvJ2Q-1"
 
     },
     {
