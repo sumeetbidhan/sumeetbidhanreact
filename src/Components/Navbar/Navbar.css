@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 120px;
-  transition: background-color 0.0s ease, padding 0.0s ease; /* Add padding transition */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Smooth transition */
   box-sizing: border-box;
 }
 
@@ -12,9 +12,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(27, 29, 27, 0.8);
   z-index: 1000;
-  padding: 15px 120px; /* Adjust padding for fixed state */
+  padding: 10px 120px; /* Adjust padding for fixed state */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Smooth transition */
 }
 
 .nav-connect {
@@ -23,7 +24,7 @@
   background: linear-gradient(267deg, #25c8da 0.36%, #e1c423 102.06%);
   font-size: 15px;
   cursor: pointer;
-  transition:  0.9s, transform 0.9s;
+  transition: 0.9s, transform 0.9s;
   white-space: nowrap;
 }
 
