@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  margin-top: 150px;
 }
 
 .mywork-title{
@@ -13,8 +14,8 @@
 }
 
 .mywork-title h1{
-  padding: 0px 30px;
-  font-size: 80px;
+  padding: 0px 60px;
+  font-size: 60px;
   font-weight: 600;
   cursor: default;
 
@@ -35,17 +36,17 @@
 
 .mywork-container img{
   box-sizing: border-box;
-  width: 419px;
-  height: 280px;
-  transition: 0.3s;
+  width: 300px;
+  height: 210px;
+  transition: 0.5s;
   cursor: pointer;
 }
 
 .mywork-container img:hover{
   transform: scale(1.10);
-  border: 4px solid greenyellow;
-  border-radius: 10px;
-  transition: 0.3s;
+  border: 4px solid rgb(255, 253, 253);
+  border-radius: 2px;
+  transition: 0.5s;
 
 }
 
@@ -54,10 +55,11 @@
   gap: 15px;
   border-radius: 50px;
   border: 2px solid white;
-  padding: 30px 60px;
-  font-size: 22px;
+  padding: 20px 40px;
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  margin-top: -20px;
   transition: 0.6s;
   cursor: pointer;
 }

@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  margin-top: 150px;
 }
 
 .services-title{
@@ -12,8 +13,8 @@
 }
 
 .services-title h1{
-  padding: 0px 30px;
-  font-size: 80px;
+  padding: 0px 60px;
+  font-size: 60px;
   font-weight: 600;
   cursor: default;
 }
@@ -29,9 +30,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  padding: 60px;
-  border-radius: 10px;
+  gap: 10px;
+  padding: 40px;
+  border-radius: 20px;
   border: 2px solid wheat;
   transition: 0.4s;
   cursor: pointer;
@@ -46,13 +47,13 @@
 }
 
 .services-format h3{
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .services-format h2{
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 400;
   background: linear-gradient(270deg, #70df08 50%, #15ffc8 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -61,8 +62,8 @@
 
 .services-format p{
   color: rgb(176, 173, 167);
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 20px;
   max-width: 300px;
 }
 

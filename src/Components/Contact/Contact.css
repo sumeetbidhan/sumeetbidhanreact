@@ -5,16 +5,18 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  margin-top: 150px;
   cursor: default;
 }
+
 
 .contact-title{
   position: relative;
 }
 
 .contact-title h1{
-  padding: 0px 30px;
-  font-size: 80px;
+  padding: 0px 60px;
+  font-size: 60px;
   font-weight: 600;
   cursor: default;
 }
@@ -28,7 +30,7 @@
 
 .contact-section{
   display: flex;
-  gap: 150px;
+  gap: 100px;
 
 }
 
@@ -40,7 +42,7 @@
 }
 
 .contact-left h1{
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   background: linear-gradient(270deg, #6cdf08 80%, #15fbff 100%);
   background-clip: text;
@@ -52,15 +54,15 @@
   max-width: 550px;
   color: white;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 .contact-details{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   color: white;
-  font-size: 22px ;
+  font-size: 14px;
 }
 
 .contact-detail{
@@ -73,12 +75,12 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 30px;
+  gap: 25px;
 }
 
 .contact-right label{
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 
 }
@@ -92,7 +94,7 @@
   background: #32323c;
   color: #A0A0A0;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contact-right textarea{
@@ -103,7 +105,7 @@
   background: #32323c;
   color: #A0A0A0;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contact-submit{
@@ -111,8 +113,8 @@
   color: white;
   border-radius: 50px;
   background: linear-gradient(264deg, rgb(6, 161, 4) -5.09%, #0bbbc1 106.28%);
-  font-size: 22px;
-  padding: 20px 60px;
+  font-size: 18px;
+  padding: 15px 40px;
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.5s;

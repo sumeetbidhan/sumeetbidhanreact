@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  margin-top: 150px;
 }
 
 .about-title{
@@ -12,8 +13,8 @@
 }
 
 .about-title h1{
-  padding: 0px 30px;
-  font-size: 80px;
+  padding: 0px 60px;
+  font-size: 50px;
   font-weight: 600;
   cursor: default;
 }
@@ -45,9 +46,9 @@
 .about-para{
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  font-size: 24px;
-  font-weight: 500;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 200;
   cursor: default;
 }
 
@@ -107,7 +108,7 @@
 }
 
 .about-achievement h1{
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   background: linear-gradient(270deg, #08dfcd 50.41%, #adff15 90.25%);
   background-clip: text;

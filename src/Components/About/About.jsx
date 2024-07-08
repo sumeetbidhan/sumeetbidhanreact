@@ -13,7 +13,6 @@ const About = () => {
     
       <div className="about-sections">
           <div className="about-left">
-            <img src={profile_img} alt="" />
           </div>
           <div className="about-right">
             <div className="about-para">
@@ -29,13 +28,13 @@ const About = () => {
             </div>
             <div className="about-skills">
               <div className="about-skill"><p>Python & R</p><hr style={{width: "100%"}} /></div>
-              <div className="about-skill"><p>JavaScript</p><hr style={{width: "70%"}} /></div>
-              <div className="about-skill"><p>SQL</p><hr style={{width: "70%"}} /></div>
+              <div className="about-skill"><p>JavaScript</p><hr style={{width: "60%"}} /></div>
+              <div className="about-skill"><p>SQL</p><hr style={{width: "50%"}} /></div>
               <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "100%"}} /></div>
-              <div className="about-skill"><p>React,Node</p><hr style={{width: "65%"}} /></div>
-              <div className="about-skill"><p>Angular,Next</p><hr style={{width: "65%"}} /></div>
-              <div className="about-skill"><p>Matplotlib</p><hr style={{width: "80%"}} /></div>
-              <div className="about-skill"><p>Tableau</p><hr style={{width: "100%"}} /></div>
+              <div className="about-skill"><p>React,Node</p><hr style={{width: "60%"}} /></div>
+              <div className="about-skill"><p>Angular,Next</p><hr style={{width: "60%"}} /></div>
+              <div className="about-skill"><p>Matplotlib</p><hr style={{width: "50%"}} /></div>
+              <div className="about-skill"><p>Tableau</p><hr style={{width: "60%"}} /></div>
 
 
 
@@ -45,25 +44,7 @@ const About = () => {
           </div>
           
         </div>
-        <div className="about-achievements">
-          <div className="about-achievement">
-            <h1>2+</h1>
-            <p>YEAR OF EXPERIENCE</p>
-
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>25+</h1>
-            <p>PROJECT COMPLETED</p>
-
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>5+</h1>
-            <p>HAPPY CLIENTS</p>
-
-          </div>
-        </div>
+       
 
       
       

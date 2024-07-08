@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 170px;
-  transition: background-color 0.4s ease, padding 0.4s ease; /* Add padding transition */
+  padding: 15px 120px;
+  transition: background-color 0.0s ease, padding 0.0s ease; /* Add padding transition */
   box-sizing: border-box;
 }
 
@@ -12,18 +12,18 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(39, 37, 37, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
-  padding: 10px 150px; /* Adjust padding for fixed state */
+  padding: 15px 120px; /* Adjust padding for fixed state */
 }
 
 .nav-connect {
-  padding: 20px 40px;
+  padding: 20px 20px;
   border-radius: 50px;
   background: linear-gradient(267deg, #25c8da 0.36%, #e1c423 102.06%);
-  font-size: 22px;
+  font-size: 15px;
   cursor: pointer;
-  transition: background 0.9s, transform 0.9s;
+  transition:  0.9s, transform 0.9s;
   white-space: nowrap;
 }
 
