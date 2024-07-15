@@ -1,17 +1,11 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
-body {
+body{
   height: 100vh;
   background: #181515;
   color: white;
-  font-family: 'Outfit', sans-serif;
-  overflow-x: hidden;
-}
-
-.app-container {
-  transform: scale(0.8); /* Scale the content to 80% */
-  transform-origin: top ; /* Set the origin for the scaling */
+  font-family: 'outfit';
 }
