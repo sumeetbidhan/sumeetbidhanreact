@@ -35,7 +35,7 @@ const mywork_data = [
         w_no:5,
         w_name:"Web design",
         w_img:project5_img,
-        link:""
+        link:"https://sumprojects.netlify.app/"
 
     },
     {
